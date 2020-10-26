@@ -28,14 +28,11 @@ const App = () => {
 
     let randomColor = [r, g, b];
 
-    console.log(randomColor);
-
     const randomHex = RgbToHex(...randomColor);
     setColor(randomHex);
-    console.log(color);
+
     try {
       let colors = new Values(color).all(10);
-      console.log(colors);
       setList(colors);
     } catch (error) {
       setError(true);
