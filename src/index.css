@@ -168,6 +168,7 @@ input {
   text-transform: capitalize;
   color: var(--clr-white);
   cursor: pointer;
+  margin-left: 5px;
 }
 input.error {
   border: 2px solid var(--clr-red-dark);
